@@ -1,6 +1,6 @@
 var express = require("express");
 var path = require("path");
-var connection;
+var connection = require("./db/connection")
 
 // Tells node that we are creating an "express" server
 var app = express();
